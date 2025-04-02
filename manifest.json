@@ -22,5 +22,5 @@
           "matches": ["https://www.google.com/*"]
         }
       ],
-    "permissions": ["sidePanel", "contextMenus"]
+    "permissions": ["sidePanel", "contextMenus", "storage"]
   }

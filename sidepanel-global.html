@@ -5,5 +5,15 @@
     <p>
       This is a global side panel, which means it remains open on every tab.
     </p>
+    <label for="nameField">Enter Name: </label>
+    <input type="text" id="nameField" class="nameField">
+    <button id="mybutton">Click Me</button>
+    <script>
+      var greeting = "Hello, ";
+      var button = document.getElementById("mybutton");
+      button.person_name = "Sonni";
+      button.addEventListener(
+        "click", () => alert(greeting + button.person_name + "."), false);
+    </script>
   </body>
 </html>
